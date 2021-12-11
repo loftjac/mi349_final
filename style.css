@@ -1,4 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap');
+
 html{
-    color: aqua;
+    background-color: #f9f9f9;
+}
+
+body{
+    font-family: Inter, Geneva, Tahoma, sans-serif;
+    
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size:42px;
+    inline-size: 300px;
+    overflow-wrap: break-word;
 
 }
+
+h2{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    
+    inline-size: 550px;
+    overflow-wrap: break-word;
+
+}
+
+
+li, a, button {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #433C38;
+    text-decoration: none;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 8%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: solid;
+    border-bottom-width: 2px;
+
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    
+
+}
+
+.nav_links{
+    list-style-type: none;
+    color: black;
+}
+
+.nav_links{
+    display: inline;
+    list-style: none;
+    margin: 15px;
+    padding: 16px;
+    justify-content: space-around;
+
+}
+
+
+
+.info{
+    display:block;
+    
+
+}
+
+
+
+
+
+
+
+li {
+  display: inline;
+  padding: 30px;
+}
+
+ul {
+    color:black;
+    
+}
+
+.nav_links{
+    transition: all 0.3a ease 0s;
+}
+
+.nav_links{
+    color: #425610;
+
+}
+
+button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: #53a264;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3a ease 0s;
+    color: white;
+}
+
+button:hover{
+    background-color: rgba(10, 70, 35, 0.8);
+
+}
+
+.reel{
+    border-radius: 5px;
+
+}
+
+.img1{
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.img2{
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+
+
+
+
+
+
+/* Courses page */ 
+
+.golfheader{
+    background-color: #368a48;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+
+
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 20px 50px 50px 50px;
+    margin-left: 30px;
+}  
+
+.flex-child:first-child {
+    background-color: #f9f9f9;
+    padding-right:10px;
+    padding-left: 100px;
+} 
+
+/* Holes */ 
+
+
+.grid2{
+    display: flex;
+    justify-content: center;
+}
+
+.grid2org > div {
+    flex: 1;
+}
+
+.box_11{
+    background-color: rgb(243, 243, 243);
+    padding: 30px;
+    font-size: 24px;
+    margin-left: 30px;
+    ;
+
+}
+
+.box_12{
+    background-color:  rgb(243, 243, 243);
+    padding: 30px;
+    font-size: 24px;
+
+}
+
+.box_13{
+    background-color:  rgb(243, 243, 243);
+    padding: 30px;
+    font-size: 24px;
+    margin-right: 50px;
+    
+}
+
+
+
+.indian{
+    float: right;
+    margin-right: 100px;
+    border-radius: 5px;
+
+
+}
+
+.trails{
+    margin-bottom: 200px;
+    background-image: url(DJI_0053.JPG);
+    padding: 60px;
+    margin-left: 40px;
+    font-size: px;
+}
+
+.contactinfo{
+    display:block;
+
+
+}
+
+.intro{
+    font-size: 18px;
+    line-height: 28px;
+
+}
+
+.bullet{
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.type{
+    font-size: 25;
+    font-weight: 300;
+
+
+}
+
+.more{
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    padding: 60px;
+
+
+
+}
+
+
+
+/* Home page layout stuff */ 
+
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.box_1{
+    background-color:#f9f9f9;
+    padding: 30px 60px 60px 60px;
+    font-size: 24px;
+    margin-left: 100px;
+    inline-size: 790px;
+    overflow-wrap: break-word;
+    
+}
+
+.p1{
+    line-height: 30px;
+
+
+}
+
+.box_2{
+    background-color: #f9f9f9;
+    margin-top: 30px;
+    padding: auto;
+    padding-left: 58px;
+    
+}
+
+.box_3{
+    background-color:  #f9f9f9;
+    padding: 50px;
+    margin-left: 60px;
+    
+    
+}
+
+.box_4{
+    background-color:#f9f9f9;
+    padding: 60px;
+    padding-right: 240px;
+    font-size: 18px;
+    line-height: 30px;
+
+}
+
+.h2{
+    line-height: 38px;
+
+
+}
+
+.h22{
+    line-height: 38px;
+
+
+}
+
+
+.box_5{
+    background-color: #f9f9f9;
+    padding: 60px;
+    font-size: 18px;
+    line-height: 28px;
+    margin-left: 100px;
+    
+    
+}
+
+.box_6{
+    background-color: #f9f9f9;
+    padding: 60px;
+    margin-right: 80px;
+
+}
+
+
+
+
+
+/* Below is for the Contact Form CSS */ 
